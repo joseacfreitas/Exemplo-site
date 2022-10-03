@@ -15,7 +15,7 @@ body{
     background: linear-gradient(to top, green, white);
 }
 
-.conteiner > .logo{
+.logo > p{
     text-align: center;
     padding-top: 0.8em;
     font-size: 4rem;
