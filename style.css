@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(237, 223, 205);
+}
+
+.conteiner{
+    height: 15em;
+    background: linear-gradient(to top, green, white);
+}
+
+.conteiner > .logo{
+    text-align: center;
+    padding-top: 0.8em;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.conteiner > p{
+    text-align: center;
+    padding-top: 0.8em;
+    font-size: 2rem;
+    text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu{
+    background-color: darkgreen;
+    height: 7vh;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+  
+
+}
+
+.menu > a{
+    position: relative;
+    left: 3em;
+    top:1.7vh;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    margin: 10px;
+
+}
+
+.menu > a:hover{
+   color:rgb(70, 245, 134);
+   text-decoration: underline;
+
+ 
+}
+
+main{
+    position: relative;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+    margin-bottom: 40px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    padding: 10px;
+    margin-bottom: 15px;
+    text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2{
+    padding: 10px;
+    background: linear-gradient(to right, lightgreen, white);
+}
+
+p{
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+img{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.674);
+    height: 6vh;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    
+}
